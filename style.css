@@ -90,7 +90,7 @@
     /* box-shadow: 0px 2px 2px 2px  #fff0b6; */
     opacity: 0;
     visibility: hidden;
-    transform: 2s;
+    /* transform: 2s; */
     display: flex;
     justify-content: center;
 }
@@ -297,7 +297,7 @@
     
 }
 .fixed-bg{
-    background-image: url(assets/akg2.jpg);
+    background-image: url(assets/clg6.jpg);
     height: 350px;
     background-attachment: fixed;
     background-position: center;
@@ -305,11 +305,12 @@
     background-size: cover;
 }
 .fixed-bg p{
-    /* font-weight: bold; */
+    font-weight: bold;
     font-size: 1rem;
     margin: 50px;
-    padding-top: 50px;
-    color: #ffc107;
+    padding-top: 150px;
+    color: white;
+    letter-spacing: 2px;
 }
 .sucess{
     margin-top:50px;
@@ -361,7 +362,7 @@
     opacity: 0.6;
 }
 .fixed-bg1{
-    background-image: url(assets/onsite2.jpeg);
+    background-image: url(assets/clg5.jpg);
     height: 350px;
     background-attachment: fixed;
     background-position: center;

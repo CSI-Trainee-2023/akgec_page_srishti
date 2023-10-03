@@ -213,6 +213,7 @@
 }
 .courseName{
     font-weight: bold;
+    text-align: center;
     font-size: 1.3rem;
 }
 .branch{
@@ -220,10 +221,11 @@
     font-size: 1rem;
     letter-spacing: 0.5px;
     padding: 0.5rem 0rem;
+    text-align: center;
 }
 .divider1{
     border: 1px solid rgb(77, 77, 77) ;
-    margin: 8px 0px;
+    margin: 0.3rem 0rem;
     width: 100%;
 }
 .divider2{
@@ -450,7 +452,7 @@
     color: rgb(217, 215, 215);
     text-decoration: none;
 }
-.footer_ul ul li{
+.footerUl ul li{
     padding: 8px 0px;
 }
 .abo{

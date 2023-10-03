@@ -3,7 +3,7 @@
     background-color: #262b31;
     position: relative;
     width: 100%;
-    height: 400px;
+    height: 10rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,7 +11,6 @@
 }
 .departmentNav{
     color: white;
-    margin-top: 200px;
     font-weight: bold;
     padding: 8px;
     font-size: 2rem;
@@ -20,14 +19,15 @@
 .boxy{
     display: flex;
     flex-direction: column;
-    margin:30px 0px;
-    margin-bottom: 50px;
+    align-items: center;
 }
 .dep{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 .con{
+    
     flex-basis: 45%;
     margin: 8px;
     margin-bottom: 20px;
@@ -41,19 +41,18 @@
     font-size: 1.8rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.cont_name{
-    margin-top: 25px;
-}
-.hod_head{
+.hodHead{
     display: flex;
+    align-items: center;
     padding: 28px;
     justify-content: space-evenly;
 }
-.hod_head h2{
+.hodHead h2{
     font-size: 1.5rem;
 }
-.hod_desc{
+.hodDesc{
     margin: 20px;
+    text-align: center;
 }
 .divider4{
     border: 2.5px solid #ffc107;

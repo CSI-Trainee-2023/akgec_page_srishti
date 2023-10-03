@@ -6,7 +6,7 @@
     background-color: #262b31;
     position: relative;
     width: 100%;
-    height: 400px;
+    height: 10rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,7 +14,6 @@
 }
 .lib-nav{
     color: white;
-    margin-top: 200px;
     font-weight: bold;
     padding: 8px;
     font-size: 2rem;
